@@ -72,7 +72,7 @@ a {
     position: fixed; /*** ← fixedで固定 ***/
     display: flex;
     justify-content: center;
-    height: 40px;
+    height: 60px;
     width:1000px;
     gap: 30px;
     background-color: white;
@@ -82,7 +82,7 @@ a {
     font-size: 25px;
     font-family: serif;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .container {
@@ -112,8 +112,8 @@ a {
 }
 
 .anchor {
-    padding-top: 140px; /*ジャンプのオフセット*/
-    margin-top: -140px; /*ジャンプのオフセット*/
+    padding-top: 160px; /*ジャンプのオフセット*/
+    margin-top: -160px; /*ジャンプのオフセット*/
 }
 
 #portrait {

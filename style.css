@@ -48,9 +48,8 @@ li {
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
+    color: black;
+    font-weight: normal;
 }
 
 .page-title{
@@ -65,7 +64,9 @@ a {
 }
 
 .page-title a {
+    text-decoration: none;
     font-weight: 500;
+    color: #000000;
 }
 
 .navi {
@@ -83,6 +84,12 @@ a {
     font-family: serif;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.navi .navi-item p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
 }
 
 .container {

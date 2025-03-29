@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth; /* スムーススクロール */
+}
+
+header {
+    width:1000px;
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    position: fixed; /*** ← fixedで固定 ***/
+    background-color: white;
+}
+
+body {
+    padding-top: 95px;
+    width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: serif;
+    font-family: san-serif;
+    color: #4d4d4d;
+}
+
+h1 {
+    font-family: serif;
+    color: black;
+}
+
+h2 {
+    font-family: serif;
+    color: black;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.page-title{
+    font-family:  "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+.page-title a {
+    font-weight: 500;
+}
+
+.navi {
+    position: fixed; /*** ← fixedで固定 ***/
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width:1000px;
+    gap: 30px;
+    background-color: white;
+}
+
+.navi .navi-item p{
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.item img {
+    width: 40px;
+    transition-duration: 0.3s;
+}
+.item:hover img{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+  }
+
+.item {
+    width : 150px;
+}
+
+.item .caption {
+    margin : 5px;
+    color: #4d4d4d;
+}
+
+.anchor {
+    padding-top: 140px; /*ジャンプのオフセット*/
+    margin-top: -140px; /*ジャンプのオフセット*/
+}
+
+#portrait {
+    display: flex; /*横並び*/
+    margin-top: 60px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#portrait img {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    width:1000px;
+    background-color: white;
+    border-top: 2px solid #000;
+}
